@@ -1,0 +1,19 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi","Hello","How are you","Goodday","Waddup", "What's up", "Is anyone there?", "Are you there?"],
+    "responses": ["Hello!", "Good to see you again!", "What do you want?", "Hey", "Hi", "Nice to meet you"]
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya","bye","Goodbye","Gotta go, later","See you", "I'm leaving", "cya around"],
+    "responses": ["okay, cya", "later", "bye bye", "See you later", "Come back soon!", "It was nice to meet you"]
+  },
+  {"tag": "name",
+    "patterns": ["What is your name","what can i call you","name?", "Do you have a name"],
+    "responses": ["Im just a program, but call me C1", "C1", "I'm C1", "Chatbot-1 or C1"]
+  },
+  {"tag": "joke",
+    "patterns": ["Can you tell me a joke?","Joke?","Knock Knock","Are you funny?","Tell me something funny"],
+    "responses": ["Sorry no, i havnt learned that yet", "Nah im not funny sadly", "not today", "no", "Your face", "Im not smart enough for that"]
+  }
+]
+}
